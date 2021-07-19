@@ -5,7 +5,7 @@
 import serial 
 import time     
 
-# Opening serial port 
+# Opening serial port (needs to be automated!)
 ser = serial.Serial('COM3',460800, timeout=1) 
 if ser.isOpen():    # make sure port is open
     print(ser.name + 'open…')    # tell the user we are starting
